@@ -1,34 +1,29 @@
-html {
+/* html {
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
+} */
 
 body {
     background-color: white;
     color: black;
     margin: 0;
+    padding: 0;
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-} */
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  /* .sticky + .grid-logo {
-    padding-top: 102px;
-} */
+.site-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 header {
     margin: 0;
     padding: 0;
     background-color: lightcyan;
     width: 100%;
+    /* width: inherit; */
     /* position: fixed;
     top: 0;
     left: 0; */
@@ -37,12 +32,15 @@ header {
 header h1 {
     text-align: center;
     font-family: 'Oxanium', cursive;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 0;
     border-bottom: 1px lightslategray dashed;
+    padding: 10px;
     width: 100%;
-    /* Attempt to sticky on scroll? */
+}
 
+header h1 .mobile-header {
+    visibility: hidden;
 }
 
 header h2 {
@@ -57,13 +55,13 @@ header h3 {
     margin: 0;
 }
 
-header p {
+/* header p {
     font-family: 'Oxanium', cursive;
     font-size: medium;
     text-align: center;
     width: 100%;
     justify-content: center;
-}
+} */
 
 h2:first-of-type {
     text-align: center;
@@ -110,8 +108,8 @@ h5 {
 
 .graph-paper {
     display: grid;
-    grid-template-columns: repeat(10, 10px);
-    grid-template-rows: repeat(10, 10px);
+    grid-template-columns: repeat(10, 15px);
+    grid-template-rows: repeat(10, 15px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -134,8 +132,8 @@ h5 {
 
 .graph-paper-light-bulb {
     display: grid;
-    grid-template-columns: repeat(10, 10px);
-    grid-template-rows: repeat(10, 10px);
+    grid-template-columns: repeat(10, 15px);
+    grid-template-rows: repeat(10, 15px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -149,8 +147,8 @@ h5 {
 
 .graph-paper-question-mark {
     display: grid;
-    grid-template-columns: repeat(10, 10px);
-    grid-template-rows: repeat(10, 10px);
+    grid-template-columns: repeat(10, 15px);
+    grid-template-rows: repeat(10, 15px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -178,6 +176,7 @@ h5 {
 
 iframe {
     margin: 10px 0;
+    width: 100%;
 }
 
 figure img {
@@ -218,21 +217,6 @@ p {
     padding: 5px; 
     margin: 0;
     /* font-family: 'Newsreader', serif; */
-}
-
-footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: lightcyan;
-    /* background-color: lightskyblue; */
-    margin: 20px 0 0 0;
-    /* justify-content: center; */
-}
-
-footer h3 {
-    text-align: center;
-    margin: 0;
-    padding: 10px;
 }
 
 .header-demo {
@@ -332,8 +316,8 @@ a {
 
 .graph-paper-grid-rows {
     display: grid;
-    grid-template-columns: repeat(10, 10px);
-    grid-template-rows: repeat(10, 10px);
+    grid-template-columns: repeat(10, 15px);
+    grid-template-rows: repeat(10, 15px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -369,8 +353,8 @@ a {
 
 .graph-paper-pyramid {
     display: grid;
-    grid-template-columns: repeat(10, 10px);
-    grid-template-rows: repeat(10, 10px);
+    grid-template-columns: repeat(10, 15px);
+    grid-template-rows: repeat(10, 15px);
     border: none;
     justify-content: center;
     padding: 20px;    
@@ -383,3 +367,29 @@ a {
 .graph-paper-pyramid-color {
     background-color: lightgreen;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightcyan;
+    /* background-color: lightskyblue; */
+    margin: 20px 0 0 0;
+    /* justify-content: center; */
+}
+
+footer h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+/* @media (min-width: 660px) {
+    
+    header h1 .mobile-header {
+        visibility: visible;
+    }
+
+    header h1 .desktop-header {
+        visibility: hidden;
+    }
+} */
