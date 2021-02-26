@@ -28,10 +28,10 @@ header {
     margin: 0;
     padding: 0;
     background-color: lightcyan;
+    width: 100%;
     /* position: fixed;
     top: 0;
-    left: 0;
-    width: 100%; */
+    left: 0; */
 }
 
 header h1 {
@@ -40,6 +40,7 @@ header h1 {
     padding: 10px;
     margin: 0;
     border-bottom: 1px lightslategray dashed;
+    width: 100%;
     /* Attempt to sticky on scroll? */
 
 }
