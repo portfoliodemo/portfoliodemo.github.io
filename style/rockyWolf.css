@@ -162,13 +162,13 @@ h5 {
 .content-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-columns: 1fr 2fr 1fr;
+    padding: 20px;
 }
 
-.blog-grid {
+/* .blog-grid {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-}
+} */
 
 .blog {
     display: grid;
