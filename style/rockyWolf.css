@@ -108,8 +108,8 @@ h5 {
 
 .graph-paper {
     display: grid;
-    grid-template-columns: repeat(10, 15px);
-    grid-template-rows: repeat(10, 15px);
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -132,8 +132,8 @@ h5 {
 
 .graph-paper-light-bulb {
     display: grid;
-    grid-template-columns: repeat(10, 15px);
-    grid-template-rows: repeat(10, 15px);
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -147,8 +147,8 @@ h5 {
 
 .graph-paper-question-mark {
     display: grid;
-    grid-template-columns: repeat(10, 15px);
-    grid-template-rows: repeat(10, 15px);
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -316,8 +316,8 @@ a {
 
 .graph-paper-grid-rows {
     display: grid;
-    grid-template-columns: repeat(10, 15px);
-    grid-template-rows: repeat(10, 15px);
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
     border: none;
     justify-content: center;
     padding: 20px;
@@ -353,8 +353,8 @@ a {
 
 .graph-paper-pyramid {
     display: grid;
-    grid-template-columns: repeat(10, 15px);
-    grid-template-rows: repeat(10, 15px);
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
     border: none;
     justify-content: center;
     padding: 20px;    
