@@ -466,13 +466,15 @@
                             <span class="snippet-class-name">}</span>
                         </div>
 
-                        <p>Whoa what's up with the repeat function lookin' thingy?! Twelve comma one fr? What on Mars is that supposed to mean!? Wait..<a href="https://en.wikipedia.org/wiki/Mars" title="https://en.wikipedia.org/wiki/Mars" target="_blank">..Mars?</a> Awesome. So your telling me your just going to lazily create twelve repeating columns, specifiying each one to take up just one fraction of the available space, just like that? Sweet!!</p>
+                        <p>Whoa what's up with the repeat function lookin' thingy?! Twelve comma one fr? What on Mars is that supposed to mean!? Wait, did you say<a href="https://en.wikipedia.org/wiki/Mars" title="https://en.wikipedia.org/wiki/Mars" target="_blank">..Mars?</a> Awesome.</p>
                         
-                        <p>Whether or not you need a gazillion columns or rows will ultimately be up to you, but perhaps more often than not sticking with a simple column and row structure, and nesting grids if needed, will yield excellent results.</p>
+                        <p>So your telling me your just going to lazily create twelve repeating columns, specifiying each one to take up just one fraction of the available space, just like that? Sweet!! If you'd like to check out some more info on CSS functions then you can head over to the <a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> site and read up all about them <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions" title="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions" target="_blank"> here</a>.</p>
+                        
+                        <p>Whether or not you need a gazillion columns or rows will ultimately be up to you and your design specs, but perhaps more often than not sticking with a simple column and row structure, will in turn yield excellent results.</p>
 
-                        <p>We are cruising along now, we have our demo setup and we've had somewhat of a column smorgasbord and we are ready to move on to rows! Are you telling me you are this far into the project, potentially over your limit and all you have really mentioned so far is grid and grid-template-columns, really? Yes, yes I am.</p>
+                        <p>We are cruising along now, we have our demo setup and we've had somewhat of a column smorgasbord party and we are ready to move on to rows! Are you telling me you are this far into the project, potentially over your limit and all you have really mentioned so far is grid and grid-template-columns? Yes, yes I am.</p>
 
-                        <h3></h3>
+                        <!-- <h3></h3> -->
 
                         <!-- Graph Paper Idea Grid -->
                         <div class="graph-paper-grid-rows">
@@ -593,7 +595,7 @@
                         <h3>Row, Row, Row Your Grid!</h3>
                         <p>Forget columns! It's time to Rock n' Row! Apologies to my classmates (and instructor!) of INTP-362 who have to read this!! =) Thank you for your patience, help, and forgiveness! ;) </p>
 
-                        <p>To start placing rows into our demo we are going to take advantage of <strong>grid-template-rows</strong>. Similar to grid-template columns but now we are essentially placing rows along the 'y-axis' if you will, whereas with columns we were working across the 'x-axis'. While we're on the subject, we can also utilize the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" title="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" target="_blank">z-index</a> to stack items however we see fit as well! Opening up another near infinite amount of design possibilites as we are essentially able to create in 3D! But for now, back to rows!</p>
+                        <p>To start placing rows into our demo we are going to take advantage of <strong>grid-template-rows</strong>. Similar to grid-template columns but now we are essentially placing rows along the 'y-axis' if you will, whereas with columns we were working across the 'x-axis'. While we're on the subject, we can also utilize the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" title="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" target="_blank">z-index</a> property to stack items however we see fit on the z-axis as well! Opening up another near infinite amount of design possibilites as we are essentially able to create in 3D! But for now, back to rows!</p>
 
                         <p>If we were trying to create three rows we could set something up very similar to our column code, only this time it could look like:</p>
 
@@ -615,6 +617,16 @@
                             <span class="snippet-css-rule">grid-template-rows: 1fr 2fr 1fr;</span>    
                             <span class="snippet-class-name">}</span>
                         </div> 
+
+                        <p>Or perhaps we want five rows instead of three, again not much is needed to set that up, setting the values as we see fit such as:</p>
+
+                        <div class="code-snippet">
+                            <span class="snippet-class-name">.my-awesome-site {</span>
+                            <span class="snippet-css-rule">display: grid;</span>    
+                            <span class="snippet-css-rule">grid-template-columns: 1fr 2fr 1fr;</span>    
+                            <span class="snippet-css-rule">grid-template-rows: 100px 2fr 4fr 10em 1fr;</span>    
+                            <span class="snippet-class-name">}</span>
+                        </div> 
                         
                         <p>Yeah, now that you mention it, grid-template-columns and grid-template-rows are pretty similar, which leads me to wonder, how <strong>did</strong> they really build the pyramids? Or perhaps an even more important question to ask, is <strong>why</strong> did they build the <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" title="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank">Great Pyramid of Giza</a>?</p> 
 
@@ -625,7 +637,9 @@
                         <h3>A Heiroglyphic-less Tomb?</h3>
                         <p>General consensus seems to be that the pyramids were built to be tombs, but a potential wrinkle in that well established theory is that there is almost no heiroglyphics anywhere in the pyramids at Giza, aside from some small markings believed to have been left by workmen in the pyramid of <a href="https://en.wikipedia.org/wiki/Khufu" title="https://en.wikipedia.org/wiki/Khufu" target="_blank">Khufu</a>, known as the <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" title="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank">Great Pyramid</a>.</p>
                         
-                        <p>Whereas roughly 665km south of Giza on the western bank of the <a href="https://en.wikipedia.org/wiki/Nile" title="https://en.wikipedia.org/wiki/Nile">Nile</a> opposite <a href="https://en.wikipedia.org/wiki/Luxor" title="https://en.wikipedia.org/wiki/Luxor" target="_blank">Luxor</a>, a vast majority of Pharoahs and royals are buried in elaborate tombs and tunnels known as the <a href="https://en.wikipedia.org/wiki/Valley_of_the_Kings" target="_blank">Valley of the Kings</a>. Nearly every wall within every royal tomb is intricately decorated from floor to ceiling with heiroglyphics, documenting the inevitably successful but perilous journey through the many challenges of the afterlife that the occupier of the tomb must pass, according to ancient Egyptian beliefs. One of the many well-known Pharoahs buried there was a young boy known as <a href="https://en.wikipedia.org/wiki/Tutankhamun" title="https://en.wikipedia.org/wiki/Tutankhamun" target="_blank">Tutankhamun</a>.</p>
+                        <p>Why is the absence of heiroglyphics a noticeable omission from the potentially greatest tomb ever constructed? Roughly 665km south of Giza on the western bank of the <a href="https://en.wikipedia.org/wiki/Nile" title="https://en.wikipedia.org/wiki/Nile">Nile</a> opposite <a href="https://en.wikipedia.org/wiki/Luxor" title="https://en.wikipedia.org/wiki/Luxor" target="_blank">Luxor</a> (ancient day <a href="https://en.wikipedia.org/wiki/Thebes,_Egypt" title="https://en.wikipedia.org/wiki/Thebes,_Egypt" target="_blank">Thebes</a>), a vast majority of Pharoahs and royals are buried in a necropolis of elaborate tombs and tunnels known as the <a href="https://en.wikipedia.org/wiki/Valley_of_the_Kings" target="_blank">Valley of the Kings</a>.</p>
+                        
+                        <p>Seemingly nearly every wall within every royal tomb is intricately decorated from floor to ceiling with heiroglyphics and incredible artwork, usually documenting the inevitably successful but perilous journey through the many challenges of the afterlife that the occupier of the tomb must pass, according to ancient Egyptian beliefs. One of the many well-known Pharoahs buried there was a young boy known as <a href="https://en.wikipedia.org/wiki/Tutankhamun" title="https://en.wikipedia.org/wiki/Tutankhamun" target="_blank">Tutankhamun</a>.</p>
                         
                         <h3>Gridding Back on Track</h3>
                         <p>So about those row/column differences? A good dig through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" title="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" target="_blank">grid-template-columns</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" title="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" target="_blank">grid-template-rows</a> on the <a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> site should clarify any differences if you can spot them! Shout out to Mozilla for being so awesome and helping everyone learn so much! Kudos Mozilla!!</p>
