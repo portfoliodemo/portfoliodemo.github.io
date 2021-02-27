@@ -165,16 +165,18 @@
                             <!-- Attempting to create a graph paper representation in HTML/CSS -->
                         </div>
                     
-                        <h2 class="blog-title">Web Layouts Using CSS Grid - Part One</h2>
+                        <h2 class="blog-title">Web Layouts Using CSS Grid</h2>
 
                         <p><span class="intro-paragraph">CSS Grid</span> - What is it? CSS Grid is an immensely powerful web layout tool that opens up a whole new world of design possibilities, taking us from the mundane to the magnificent with only a few simple lines of code.</p>
                         
-                        <p>Grid allows for the simplest or most complex websites to be built and deployed with relative ease, all while enhancing separation of concerns and improving accessibility. Wow, sounds great!! Sign me up!! Now if only I knew how to do all of those things.</p>
+                        <p>Through the power of CSS Grid we can define our own custom column and row structures, expanding or contracting them as we see fit, while also providing the opportunities to customize grid line names, and specify individual cells within the grid as unique grid areas too. All of these features within compact properties that are independently accessible and customizable, leading the way to a near infinite amount of choices for our layouts and web designs.</p>
+
+                        <!-- <p>Grid allows for the simplest or the most complex website designs to be built and deployed with relative ease, all while enhancing separation of concerns and improving accessibility. Wow, sounds great!! Sign me up!! Now if only I knew how to do all of those things.</p>  -->
                         
                         <h3>From Graph Paper to Grid</h3>
-                        <p>Imagine a sheet of graph paper, better yet if you happen to have one close by, go and grab it, don't worry if it will take you a few minutes, I'll wait here until your back. (No really it's fine, I'm going to put the kettle on for a proper cup anyways..) </p>
-                        <p>Got the graph paper? Great, it's really helpful for sketching out layout and grid ideas! Wait, you don't have it? Well which is it? Never mind, there is a grid below we can use for our purposes. </p>
-                        <p>Start off by taking a long look at the following graph below or by visualizing one in your mind, and imagining all of the infinite <!-- web-layout -->possibilities that could be created.. </p>
+                        <p>Imagine a sheet of graph paper, or grab some as well if you have some close by, so that you can sketch out your own ideas about grids and layouts that you'd potentially like to create and explore.</p>
+                        <p>Got the graph paper? Great! Wait, you don't have it? No worries, there is some examples below we can use for our purposes.</p>
+                        <p>Start off by taking a long look at the following graph below or by visualizing one in your mind, sketching out your perfect layouts and imagining all of the infinite <!-- web-layout -->possibilities that could be created.. </p>
 
                         <!-- Graph Paper Idea Grid -->
                         <div class="graph-paper-question-mark">
@@ -295,17 +297,17 @@
                         <p>Now you understand CSS Grid!! Awesome right?! Thanks for reading! <span class="custom-caption">Stay tuned next week as we tackle time and space complexity! ;)</span></p>
                         
                         <h3>Giddy About Grid</h3>
-                        <p>All joking aside, CSS Grid is a tool that can unleash all sorts of powerful customizations, so much so that I almost don't really know where to start when trying to talk about it! There are so many cool layouts and opportunities made available thanks to all of the great properties and features of CSS Grid, it is really exciting!! You know when your binging on development docs your excited.</p>
+                        <p>All joking aside, CSS Grid is a tool that can unleash all sorts of unique customizations, so much so that I almost don't know where to start when trying to talk about it! You know when your binging on development docs your excited.</p>
                         <p>So what kind of setup is required when you want to start making and using a grid, or in many cases, grids? Well it's pretty simple to get up and running, you just select virtually any element from your html that you want to become a grid, and you set it's display property to grid, as in this CSS example shown below:</p>
                         <div class="code-snippet">
-                            <span class="snippet-class-name">.my-awesome-site {</span>
+                            <span class="snippet-class-name">.our-awesome-grid {</span>
                             <span class="snippet-css-rule">display: grid;</span>    
                             <span class="snippet-class-name">}</span>
                         </div>
 
-                        <p>Okay cool! So now we now have an element declared as a grid (our element here is a div, but again you can use virtually any html element to become a grid), and our element belongs to the class called my-awesome-site. In this case, we are going to use our grid as a container for the main portion of our site where we play around with some of the properties of Grid such as columns and rows and gaps.</p>
+                        <p>Okay cool! So now we now have an element declared as a grid, and our element belongs to the class called our-awesome-grid, which we could have named pretty much anything we want. In this case, we are going to use our grid as a container to play around with some of the many properties of grid!</p>
                         
-                        <p>A key point to remember is that only the <strong>direct/first-level descendant(s)</strong> of an element with <strong>display: grid</strong> will inherently become a grid item or items.<!-- Maybe break here, unorderlist to demo inheritance --> So it's important to keep those relationships in mind as you are developing your site and building out your grids. As we dig a little deeper hopefully this will become clearer. Now is probably a perfect time to brainstorm some web layout demo ideas!</p>
+                        <p>A key point to remember is that only the <strong>direct/first-level descendant(s)</strong> of an element with <strong>display: grid</strong> will inherently become a grid item or items.<!-- Maybe break here, unorderlist to demo inheritance --> So it's important to keep those relationships in mind as you are developing your site and building out your grids. As we dig a little deeper hopefully this will become clearer. Now that we have our grid defined let's brainstorm some layout ideas!</p>
 
                         <!-- Graph Paper Idea Grid -->
                         <div class="graph-paper-light-bulb">
@@ -423,15 +425,15 @@
                             <!-- Attempting to create a light-bulb representation in HTML/CSS -->
                         </div> <!-- End of light-bulb-grid -->
                         
-                        <p>While a one column layout may be just what you need, and that's effectively all that's created when you initally declare an element as a grid (items will still be laid out in normal flow just the same as before declaring a grid), for demonstration sake that's not exactly ideal. So let's go ahead and start off our demo by creating a three column grid!</p>
+                        <p>While a one column layout may be just what you need, and that's effectively all that's created when you initally declare an element as a grid (items will still be laid out according to normal flow and still look very similar if not the same as before declaring a grid), but for demonstration sake that's not exactly ideal. So let's go ahead and start off our demo by creating a let's say, hmm, pick a number? Alright a three column grid it is then!</p>
 
                         <h3>From Grid to Great</h3>
-                        <p>We can create a basic three column grid by simply utilizing a property called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" alt="Mozilla Developer Documentation on Grid-Template-Columns" target="_blank">grid-template-columns</a>, along with a value containing any length measurement you'd like, pixels (px), ems (em), fractions (fr), whatever suits your situation at any given moment.</p>
+                        <p>We can create a basic three column grid by simply utilizing a property called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" alt="Mozilla Developer Documentation on Grid-Template-Columns" target="_blank">grid-template-columns</a>, and specifying a value containing any length measurement available, such as pixels (px), ems (em), percentages (%), fractions (fr), whatever suits your situation at any given moment.</p>
 
-                        <p>In this case we will be using fr, which stands for fraction and assigns all of the available space to that portion of the grid based on the fraction. Here's an example of what CSS might be needed to setup a basic three column layout:</p>
+                        <p>In this case we will be using fr, which stands for fraction and assigns all of the available space to that portion of the grid based on the fraction. Here's an example of what CSS might be used to setup a basic three column layout:</p>
 
                         <div class="code-snippet">
-                            <span class="snippet-class-name">.my-awesome-site {</span>
+                            <span class="snippet-class-name">.our-awesome-grid {</span>
                             <span class="snippet-css-rule">display: grid;</span>    
                             <span class="snippet-css-rule">grid-template-columns: 1fr 2fr 1fr;</span>    
                             <span class="snippet-class-name">}</span>
@@ -439,7 +441,7 @@
 
                         <p>Alright! Now we are definitely gettin' griddy with it. We've declared our grid container, and defined a three column layout within it, with the middle column taking up half of the available space.</p>
                         
-                        <p>Seeing the CSS in action along with some html markup will really help to showcase what's happening here. So without further ado let's go ahead and setup a skeleton demo and start having even more fun with grid! Queue the montage! (Just kidding, there's no montage, yet..)</p>
+                        <p>Seeing the CSS in action along with some html markup should help to showcase what's happening here. So without further ado let's go ahead and setup a skeleton demo and start having even more fun with grid! Queue the montage! (Just kidding, there's no montage yet..)</p>
 
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/e1deskiRFaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
