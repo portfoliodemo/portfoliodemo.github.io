@@ -20,9 +20,10 @@ body {
 
 header {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     background-color: lightcyan;
-    width: 100%;
+    display: grid;
+    padding: 10px;
     /* width: inherit; */
     /* position: fixed;
     top: 0;
@@ -35,7 +36,7 @@ header h1 {
     /* padding: 10px; */
     margin: 0;
     border-bottom: 1px lightslategray dashed;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
 }
 
@@ -89,6 +90,10 @@ h3 {
     padding: 5px 5px 0 5px;
     margin: 10px 0 0 0;
     border-bottom: 1px lightslategray dashed;
+}
+
+h3:last-of-type {
+    margin-bottom: 10px;
 }
 
 h5 {
@@ -370,18 +375,18 @@ a {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0px;
     background-color: lightcyan;
-    /* background-color: lightskyblue; */
-    margin: 20px 0 0 0;
+    display: grid;
+    padding: 10px;
     /* justify-content: center; */
 }
 
 footer h3 {
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 /* @media (min-width: 660px) {
