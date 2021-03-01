@@ -306,7 +306,7 @@
 
                         <p>Okay cool! So now we now have an element declared as a grid, and our element belongs to the class called our-awesome-grid, which we could have named pretty much anything we want. In this case, we are going to use our grid as a container to play around with some of the many properties of grid!</p>
                         
-                        <p>A key point to remember is that only the <strong>direct/first-level descendant(s)</strong> of an element with <strong>display: grid</strong> will inherently become a grid item or items. So it's important to keep those relationships in mind as you are developing your site and building out your grids. As we dig a little deeper hopefully this will become clearer. Now that we have our grid defined let's brainstorm some layout ideas!</p>
+                        <p>A key point to remember is that only the <strong>direct/first-level descendant(s)</strong> of an element with <strong>display: grid</strong> will inherently become a grid item or items, so it's important to keep those relationships in mind as you are developing your site and building out your grids. As we dig a little deeper hopefully this will become clearer. Now that we have our grid defined let's brainstorm some layout ideas!</p>
 
                         <!-- Graph Paper Idea Grid -->
                         <div class="graph-paper-light-bulb">
@@ -424,7 +424,7 @@
                             <!-- Attempting to create a light-bulb representation in HTML/CSS -->
                         </div> <!-- End of light-bulb-grid -->
                         
-                        <p>While a one column layout may be just what you need, and that's effectively all that's created when you initally declare an element as a grid (items will still be laid out according to normal flow and still look very similar if not the same as before declaring a grid), for demonstration sake that's not exactly ideal. So let's go ahead and start off our demo by creating a let's say, hmm, pick a number? Alright a three column grid it is then!</p>
+                        <p>While a one column layout may be just what you need, and that's effectively all that's created when you initially declare an element as a grid (items will still be laid out according to normal flow and still look very similar if not the same as before declaring a grid), for demonstration sake that's not exactly ideal. So, let's go ahead and start off our demo by creating a let's say, hmm, pick a number? Alright a three-column grid it is then!</p>
 
                         <h3>From Grid to Great</h3>
                         <p>We can create a basic three column grid by simply utilizing a property called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" alt="Mozilla Developer Documentation on Grid-Template-Columns" target="_blank">grid-template-columns</a>, and specifying a value containing any length measurement available, such as pixels (px), ems (em), percentages (%), fractions (fr), whatever suits your situation at any given moment.</p>
@@ -438,15 +438,15 @@
                             <span class="snippet-class-name">}</span>
                         </div>
 
-                        <p>Alright! Now we are definitely gettin' griddy with it. We've declared our grid container, and defined a three column layout within it, with the middle column taking up half of the available space.</p>
+                        <p>Alright! Now we are definitely gettin' griddy with it. We've declared our grid container, and defined a three-column layout within it, with the middle column taking up half of the available space.</p>
 
                         <h3>Column to an End</h3>
                         <p>Our basic grid has been setup and we now have three columns we can play around with. We could have just as easily setup our three columns to become two, or five, or twelve columns, all really up to you to use however you want, demonstrating the flexibility of not only Grid in general, but also of its many specific properties as well!</p>
                     
-                        <p>So again using only grid-template-columns, we could also write something like:</p>
+                        <p>So again, using only grid-template-columns, we could also write something like:</p>
 
                         <div class="code-snippet">
-                            <span class="snippet-class-name">.my-awesome-site {</span>
+                            <span class="snippet-class-name">.our-awesome-grid {</span>
                             <span class="snippet-css-rule">display: grid;</span>    
                             <span class="snippet-css-rule">grid-template-columns: 200px 1fr;</span>    
                             <span class="snippet-class-name">}</span>
@@ -455,7 +455,7 @@
                         <p>or:</p>
 
                         <div class="code-snippet">
-                            <span class="snippet-class-name">.my-awesome-site {</span>
+                            <span class="snippet-class-name">.our-awesome-grid {</span>
                             <span class="snippet-css-rule">display: grid;</span>    
                             <span class="snippet-css-rule">grid-template-columns: repeat(12, 1fr);</span>    
                             <span class="snippet-class-name">}</span>
@@ -463,11 +463,11 @@
 
                         <p>Whoa what's up with the repeat function lookin' thingy?! Twelve comma one fr? What on Mars is that supposed to mean!? Wait, did you say<a href="https://en.wikipedia.org/wiki/Mars" title="https://en.wikipedia.org/wiki/Mars" target="_blank">..Mars?</a> Awesome.</p>
                         
-                        <p>So your telling me your just going to lazily create twelve repeating columns, specifiying each one to take up just one fraction of the available space, just like that? Sweet!! If you'd like to check out some more info on CSS functions then you can head over to the <a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> site and read up all about them <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions" title="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions" target="_blank"> here</a>.</p>
+                        <p>So, you"re telling me your just going to lazily create twelve repeating columns, specifying each one to take up just one fraction of the available space, just like that? Sweet!! If you'd like to check out some more info on CSS functions then you can head over to the <a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> site and read up all about them <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions" title="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions" target="_blank"> here</a>.</p>
                         
                         <p>Whether or not you need a gazillion columns or rows will ultimately be up to you and your design specs, but perhaps more often than not sticking with a simple column and row structure, will in turn yield excellent results.</p>
 
-                        <p>We are cruising along now, we have our demo setup and we've had somewhat of a column smorgasbord party and we are ready to move on to rows! So you are this far into the project, potentially over your limit and all you have really mentioned so far is pretty much grid and grid-template-columns? Yes, yes I am.</p>
+                        <p>We are cruising along now, we have our demo setup and we've had somewhat of a column smorgasbord party and we are ready to move on to rows! So, you are this far into the project, potentially over your limit and all you have really mentioned so far is pretty much grid and grid-template-columns? Yes, yes I am.</p>
 
                         <!-- Graph Paper Idea Grid -->
                         <div class="graph-paper-grid-rows">
@@ -588,7 +588,7 @@
                         <h3>Row, Row, Row Your Grid!</h3>
                         <p>Forget columns! It's time to Rock n' Row! Apologies to my classmates (and instructor!) of INTP-362 who have to read this!! =) Thank you for your patience, help, and forgiveness! ;) </p>
 
-                        <p>To start placing rows into our demo we are going to take advantage of <strong>grid-template-rows</strong>. Similar to grid-template columns but now we are essentially placing rows along the 'y-axis' if you will, whereas with columns we were working across the 'x-axis'. While we're on the subject, we can also utilize the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" title="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" target="_blank">z-index</a> property to stack items however we see fit on the z-axis as well! Opening up another near infinite amount of design possibilites as we are essentially able to create in 3D! But for now, back to rows!</p>
+                        <p>To start placing rows into our demo we are going to take advantage of <strong>grid-template-rows</strong>. Similar to grid-template columns but now we are essentially placing rows along the 'y-axis' if you will, whereas with columns we were working across the 'x-axis'. While we're on the subject, we can also utilize the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" title="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" target="_blank">z-index</a> property to stack items however we see fit on the z-axis as well! Again, CSS Grid opens up a near infinite amount of design possibilities as we are essentially able to create in 3D! But for now, back to rows!</p>
 
                         <p>If we were trying to create three rows we could set something up very similar to our column code, only this time it could look like:</p>
 
@@ -601,7 +601,7 @@
                         
                         <p>While the syntax is very similar to grid-template-columns, there are some subtle differences that have to be taken into account when differentiating between the two. Wait, is there? Are you sure? No I'm not actually, not at all, upon closer inspection they look almost identical if I'm not mistaken?</p>
                         
-                        <p>We can definitely combine columns and rows together to help define our layouts even more. So combining our code examples from earlier, we could set up something like the following:</p>
+                        <p>We can definitely combine columns and rows together to help define our layouts even more. So, combining our code examples from earlier, we could set up something like the following:</p>
 
                         <div class="code-snippet">
                             <span class="snippet-class-name">.my-awesome-site {</span>
@@ -627,27 +627,27 @@
 
                         <div class="pyramid-cheops"></div>               
                         
-                        <h3>A Heiroglyphic-less Tomb?</h3>
-                        <p>General consensus seems to be that the pyramids were built to be tombs, but a potential wrinkle in that well established theory is that there is almost no heiroglyphics anywhere in the pyramids at Giza, aside from some small markings believed to have been left by workmen in the pyramid of <a href="https://en.wikipedia.org/wiki/Khufu" title="https://en.wikipedia.org/wiki/Khufu" target="_blank">Khufu</a>, known as the <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" title="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank">Great Pyramid</a>.</p>
+                        <h3>A Hieroglyphic-less Tomb?</h3>
+                        <p>General consensus seems to be that the pyramids were built to be tombs, but a potential wrinkle in that well established theory is that there is almost no hieroglyphics anywhere in the pyramids at Giza, aside from some small markings believed to have been left by workmen in the pyramid of <a href="https://en.wikipedia.org/wiki/Khufu" title="https://en.wikipedia.org/wiki/Khufu" target="_blank">Khufu</a>, known as the <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" title="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank">Great Pyramid</a>.</p>
                         
-                        <p>Why is the absence of heiroglyphics a noticeable omission from the potentially greatest tomb ever constructed? Roughly 665km south of Giza on the western bank of the <a href="https://en.wikipedia.org/wiki/Nile" title="https://en.wikipedia.org/wiki/Nile">Nile</a> opposite <a href="https://en.wikipedia.org/wiki/Luxor" title="https://en.wikipedia.org/wiki/Luxor" target="_blank">Luxor</a> (ancient day <a href="https://en.wikipedia.org/wiki/Thebes,_Egypt" title="https://en.wikipedia.org/wiki/Thebes,_Egypt" target="_blank">Thebes</a>), a vast majority of Pharoahs and royals are buried in a necropolis of elaborate tombs and tunnels known as the <a href="https://en.wikipedia.org/wiki/Valley_of_the_Kings" target="_blank">Valley of the Kings</a>.</p>
+                        <p>Why is the absence of hieroglyphics a noticeable omission from the potentially greatest tomb ever constructed? Roughly 665km south of Giza on the western bank of the <a href="https://en.wikipedia.org/wiki/Nile" title="https://en.wikipedia.org/wiki/Nile">Nile</a> opposite <a href="https://en.wikipedia.org/wiki/Luxor" title="https://en.wikipedia.org/wiki/Luxor" target="_blank">Luxor</a> (ancient day <a href="https://en.wikipedia.org/wiki/Thebes,_Egypt" title="https://en.wikipedia.org/wiki/Thebes,_Egypt" target="_blank">Thebes</a>), a vast majority of Pharaohs and royals are buried in a necropolis of elaborate tombs and tunnels known as the <a href="https://en.wikipedia.org/wiki/Valley_of_the_Kings" target="_blank">Valley of the Kings</a>.</p>
                         
-                        <p>Seemingly nearly every wall within every royal tomb is intricately decorated from floor to ceiling with heiroglyphics and incredible artwork, usually documenting the inevitably successful but perilous journey through the many challenges of the afterlife that the occupier of the tomb must pass, according to ancient Egyptian beliefs. One of the many well-known Pharoahs buried there was a young boy known as <a href="https://en.wikipedia.org/wiki/Tutankhamun" title="https://en.wikipedia.org/wiki/Tutankhamun" target="_blank">Tutankhamun</a>.</p>
+                        <p>Seemingly nearly every wall within every royal tomb is intricately decorated from floor to ceiling with hieroglyphics and incredible artwork, usually documenting the inevitably successful but perilous journey through the many challenges of the afterlife that the occupier of the tomb must pass, according to ancient Egyptian beliefs. One of the many well-known Pharaohs buried there was a young boy known as <a href="https://en.wikipedia.org/wiki/Tutankhamun" title="https://en.wikipedia.org/wiki/Tutankhamun" target="_blank">Tutankhamun</a>.</p>
 
                         <h3>Gridding Back on Track</h3>
-                        <p>So about those row/column differences? A good dig through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" title="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" target="_blank">grid-template-columns</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" title="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" target="_blank">grid-template-rows</a> on the <a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> site should clarify any differences if you can spot them! Shout out to Mozilla for being so awesome and helping everyone learn so much! Kudos Mozilla!!</p>
+                        <p>So, about those row/column differences? A good dig through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" title="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns" target="_blank">grid-template-columns</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" title="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows" target="_blank">grid-template-rows</a> on the <a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> site should clarify any differences if you can spot them! Shout out to Mozilla for being so awesome and helping everyone learn so much! Kudos Mozilla!!</p>
 
-                        <p>Speaking of "track", tracks are how the rows and columns that we define are referred to. To go back way up to our first example, we had three columns, or three "tracks", that we set to 1fr 2fr 1fr, and then eventually three rows that we also set to the same values. So what does that end up looking like, and how do we create space between the column and row tracks?</p>
+                        <p>Speaking of "track", tracks are how the rows and columns that we define are referred to. To go back way up to our first example, we had three columns, or three "tracks", that we set to 1fr 2fr 1fr, and then eventually three rows that we also set to the same values. So, what does that end up looking like, and how do we create space between the column and row tracks?</p>
 
                         <p>Before getting off track anymore with random tangents, let's sum up what we've covered here so far and explore and expand on a few more properties in a video showcasing the many great features of CSS Grid!</p>
 
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/aTYWoM8iVuw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                         <h3>What About Those Pyramids?</h3>
-                        <p>Ancient Egypt is often divided into three parts, the Old Kingdom, the Middle Kingdom, and the New Kingdom. Pyramids were predominantly built it would seem in the old and middle kingdoms where pyramids were often used as tombs based on archaeological evidence. Entire villages and cities emerged around these complexes and in general it would seem life would have been quite good for those involved in the construction and use of these ancient places. So it would seem that the great pyramid as a tomb is quite a likely scenario after all, as it wasn't until the new kingdom that the elaborately decorated tombs in the Valley of the Kings came into prominence. While the mysteries of ancient Egypt may never truly be solved, its awe and wonder continue to reach out captivating minds and curiosity all across the world!</p>
+                        <p>Ancient Egypt is often divided into three parts, the Old Kingdom, the Middle Kingdom, and the New Kingdom. Pyramids were predominantly built in the old and middle kingdoms where many pyramids along the Nile were often used as tombs based on archaeological evidence. Entire villages and cities emerged around these complexes and in general it would seem life would have been quite good for those involved in the construction and use of these ancient places. So, it would seem that the great pyramid as a tomb is quite a likely scenario after all, as it wasn't until the new kingdom that the elaborately decorated tombs in the Valley of the Kings came into prominence. While the mysteries of ancient Egypt may never truly be solved, its awe and wonder continue to reach out captivating minds and curiosity all across the world!</p>
 
                         <h3>That's a Wrap!</h3>
-                        <p>Clearly there is a lot of power and functionality offered through CSS Grid. It is not meant to replace Flexbox, but moreso to be used in conjunction with flex, adding to it's strength. To quote a famous uncle "with great power, comes great responsibility", so with that being said it's back to the drawing board, or in this case the development docs to continue the CSS Grid journey and hopefully return soon with more awesome features to share! Thank you for checking out this blog, good luck and thanks again to all my classmates and bye for now! </p>
+                        <p>Clearly there is a lot of power and functionality offered through CSS Grid. It is not meant to replace Flexbox, but more so to be used in conjunction with flex, adding to its strength. To quote a famous uncle "with great power, comes great responsibility", so with that being said it's back to the drawing board, or in this case the development docs to continue the CSS Grid journey and hopefully return soon with more awesome features to share! Thank you for checking out this blog, good luck and thanks again to all my classmates and bye for now! </p>
 
                         <!-- Current End of Submissable Content -->
 
@@ -665,6 +665,9 @@
                         <p> <a href="https://css-tricks.com/snippets/css/css-triangle/" title="https://css-tricks.com/snippets/css/css-triangle/" target="_blank">CSS Triangle | CSS Tricks</a></p>
 
                         <p> <a href="http://giza.fas.harvard.edu/" title="http://giza.fas.harvard.edu/" target="_blank">Digital Giza | Harvard University</a></p>
+
+                        <p> <a href="https://www.w3schools.com/css/css_grid.asp" title="https://www.w3schools.com/css/css_grid.asp" target="_blank">w3schools</a></p>
+                        <p> <a href="https://en.wikipedia.org/wiki/Spider-Man" title="https://en.wikipedia.org/wiki/Spider-Man" target="_blank">Spider Man</a></p>
 
                 </div> 
                 <!-- End of Blog Div! -->
