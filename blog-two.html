@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet(s) -->
+    <link rel="stylesheet" href="./assets/styles/blog-two-styles.css" type="text/css">
+
+    <title>Web Layouts Using CSS Grid | INTP-362</title>
+</head>
+<body>
+    
+    <div class="site-container">
+    
+        <header>
+            <h1>Emerging Trends in Technology | INTP-362</h1>
+        </header>
+
+        <div class="content-container">
+
+            <div class="left-sidebar">
+                <!-- Empty Left Sidebar. -->            
+            </div>
+
+            <div class="center-content">
+
+                    <div class="blog">
+
+                        <!-- 3D Cube Attempt -->
+                        <!-- <div id="l">
+                            <div></div>
+                            <div>C</div>
+                            <div>S</div>
+                            <div>S</div>
+                            <div></div>
+                            <div>G</div>
+                            <div>R</div>
+                            <div>ID</div>
+                            <div></div>
+                            <div></div>
+                          </div>
+                          <div id="c"></div>
+                          <div id="r">
+                            <div></div>
+                            <div>I</div>
+                            <div>N</div>
+                            <div>T</div>
+                            <div>P</div>
+                            <div>-</div>
+                            <div>3</div>
+                            <div>6</div>
+                            <div>2</div>
+                            <div></div>
+                          </div> -->
+                        <!-- End of 3D Cube Attempt -->
+
+                        <!-- Graph Paper Grid Container -->
+                        <div class="graph-paper">
+
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div></div>
+
+                            <div></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div></div>
+
+                            <div></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div></div>
+
+                            <div></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div></div>
+
+                            <div></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div class="mini-grid-sidebar"></div>
+                            <div></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+
+                            <!-- Attempting to create a graph paper representation in HTML/CSS -->
+                        </div>
+
+                        <h2 class="blog-title">Web Layouts Using CSS Grid - Take Two</h2>
+                        <!-- Template from Blog One to Start Writing for Blog Two -->
+                        <!-- Initial Opening/Overview/Summary -->
+                        <p><span class="intro-paragraph">CSS Grid</span> - Here we go again! Who's excited about CSS Grid? I tell you, the excitement is palpatable throughout the web, as we get set to embark on a once in a lifetime CSS Grid journey of greatness. Okay, okay, maybe it's not that great, maybe it's even borderline boring. Borderline?! Ha! I don't have time for CSS, I want to make games and fully reactive web applications, CSS is an after-thought, I already have it cased, checkmated, how could grid possibly help me? I don't need grids help, never have, never will.. adios grid.</p>
+
+                        <!-- sunset grid? -->
+
+                        <p>Whoa, are you sure? While often nowhere near as complex as many dynamic languages or frameworks, CSS still lands some heavy punches and seems to be contiunally gaining strength, not to mention it's an asset or requirement on pretty much every single web application job posting. Therefore, we might as well spend some extra time solidifying our understanding of the fundamentals of CSS, and CSS Grid, while we wait for our latest and greatest framework to finally finish loading. While we often overlook and glaze over CSS, you can't help but acknowledge it still plays a core role in today's technology stacks. Whether we like it or not, CSS skills are key building blocks that help ensure we have a strong foundation to build our complex websites, languages and frameworks on top of.</p>
+
+                        <h3>Previously, on CSS Grid</h3>
+                        <p>This blog will continue to expand upon the concepts initially covered in the first edition of Web Layouts Using CSS Grid. These blogs are by no means exhaustive and are most likely riddled with errors, however, that being said, there may just be a nugget of value somewhere here, if you look closely, ..hopefully. =)</p>
+                        
+                        <p>For example, did you know that if you have a bunch of tabs open in Chrome, and you press Ctrl + 3 (or ctrl + any number between 1 -9), you will jump to the third/nth tab? Grids paying dividends in multiple ways already! I just accidentally found that out as I started to fall asleep on my keyboard..</p>
+
+                        <!-- Graph Paper Question Mark Grid -->
+                        <div class="graph-paper-question-mark">
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-top"></div>
+                            <div class="question-mark-top"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <!-- Attempting to create a question mark representation in HTML/CSS -->
+                        </div><!-- End of graph-paper-question-mark -->
+
+                        <h3>To Grid or Not to Grid</h3>
+                        <p>Inspiration strikes like lightning, and oftentimes, if we don't act quickly, we ultimately lose the moments of clarity that may have led to new insights or opportunities. If only we had the wherewithal to seek out our ideas until fruition and beyond. CSS Grid is yet another powerful method that you can use, near instantaneously, to capture and iterate over your ideas and inspiration quickly, so that before your idea even has a chance to fade into oblivion, you are already making changes to your initial prototype and improving upon your designs, escalating your excitement in parallel with your project growth as you realize you are following your true ambitions and creativity! Whoa, CSS Grid can do all that for me? Well, yeah, as long as you believe you can, then what could possibly stop you?</p>
+
+                        <!-- Graph Paper Grid Container -->
+                        <div class="graph-paper">
+
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+                            <div class=""></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="question-mark-bottom"></div>
+                            <div class="header-demo"></div>
+                            <div class="header-demo"></div>
+                            <div class="question-mark-bottom"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div class="mini-grid-main"></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                            <!-- Attempting to create a graph paper representation in HTML/CSS -->
+                        </div>
+
+                        <h3>Setting Up Your Layouts</h3>
+                        <p>Wait is that grid above supposed to be something? Nevermind about that now. Starting with a simple mobile design layout, and expanding it to larger screens and more complex layouts, is a lot easier than taking a complex website and shrinking it down to a mobile friendly site. Simplicity however, has a tendency to oftentimes become strikingly complex as you begin to strive for it. As the famous writer Mark Twain once said "I didn't have time to write a short letter, so I wrote a long one instead.". </p>
+
+                        <p>Let's go ahead and build out a simple mobile layout, and see if we can scale it up with relative ease using a few key features of CSS Grid.</p>
+
+                        <div class="code-snippet">
+                            <span class="snippet-class-name">.mobile-layout {</span>
+                            <span class="snippet-css-rule">display: grid;</span>   
+                            <span class="snippet-css-rule">grid-template-columns: 1fr;</span>
+                            <!-- Formatting needs to be improved here, elimnate <br> tags -->
+                            <span class="snippet-css-rule">grid-template-areas:</span>
+                            <span class="snippet-css-rule-indent">"header"</span>
+                            <span class="snippet-css-rule-indent">"nav"</span>
+                            <span class="snippet-css-rule-indent">"main"</span>
+                            <span class="snippet-css-rule-indent">"aside"</span>
+                            <span class="snippet-css-rule-indent">"footer";</span>  
+                            <span class="snippet-class-name">}</span>
+                        </div>
+
+                        <p>Okay, so we have declared our .mobile-layout class to become a grid, set the column structure to 1fr, and labelled our grid template areas with the names that we'd like to use to identify our core elements. Note we could have named "header", "nav", "main" etc. anything we wanted, "header" could be "masthead" or "Oilers-Rule" if we were so inclined. What's interesting here is that we can easily change the visual representation of our layouts with grid-template-areas and grid-template-columns, without affecting the logical source order of our markup, a huge advantage and key component when it comes to addressing accessibility issues.</p>
+
+                        <p>Setting up our layout this way is a two step process, first we define the names we wish to use as shown above with grid-template-areas, and then, within each element that we want to include in our grid layout, we set the grid-area property to the name we chose to set. Without sounding more confusing, let's just take a look at that code.</p>
+
+                        <div class="code-snippet">
+                            <span class="snippet-class-name">.header-content {</span>
+                            <span class="snippet-css-rule">grid-area: header;</span>    
+                            <span class="snippet-class-name">}</span><br>
+                            <span class="snippet-class-name">.navigation {</span>
+                            <span class="snippet-css-rule">grid-area: nav;</span>    
+                            <span class="snippet-class-name">}</span><br>
+                            <span class="snippet-class-name">.main-content {</span>
+                            <span class="snippet-css-rule">grid-area: main;</span>    
+                            <span class="snippet-class-name">}</span><br>
+                            <span class="snippet-class-name">.aside-content {</span>
+                            <span class="snippet-css-rule">grid-area: aside;</span>    
+                            <span class="snippet-class-name">}</span><br>
+                            <span class="snippet-class-name">.footer-content {</span>
+                            <span class="snippet-css-rule">grid-area: footer;</span>    
+                            <span class="snippet-class-name">}</span>
+                        </div>
+
+                        <p>Note that there are no quotations used when setting the grid-area property. Now we have setup our basic mobile layout, and we can easily adapt our visual layout to accomodate varying screen sizes and viewports by adding in some simple media queries that alter the grid-template-columns and grid-template-area properties, and voila, responsive site! Let's jump into a quick video to see these ideas in action!</p>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d3Lo7w3m5jI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <h3>Grid vs. Flexbox</h3>
+                        <p>What does the power of grid mean for the mighty flexbox? CSS Grid was not meant to replace flexbox, but instead, to work in conjunction together with flexbox to provide even more options to developers. Flexbox is intended for manipulation of content on one axis, while Grids is designed for content manipulation on two. There are infinite examples and opportunities where you may want to use flex within a grid and vice versa as you go about desiging your webpages, continually opening up the world of possibilities for developers to create any layout we can imagine! </p>
+
+                        <h3>Grid Golly</h3>
+                        <p>We've touched on a lot of the features of CSS Grid, but what else is there under the hood that we can utilize to add interest to our sites? Another way we can alter our elements and effectively our layouts, is by using the grid-column-start and grid-column-end properties, which luckily for us, has a shorthand that's just called, grid-column! Let's jump back into a quick video for a mini demonstration of this property!</p>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aIW2q0g6SKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <h3>Grid What You Pay For</h3>
+                        <p>Ultimately, the value you derive from using CSS Grid will depend on how willing you are to utilize its properties and features, experimenting with it within your own layouts and designs and seeing how well it works for you. Using CSS Grids in combination with all the other multitude of tools available to developers, only adds to the power and creativity you can unleash on your projects! So get out there and get griddin! Once again apologies for the horrible grid puns littered throughout these posts! Thanks for reading and <a href="https://www.youtube.com/watch?v=CnQ8N1KacJc" title="Green Day Good Riddance" target="_blank">grid riddance!</a></p>
+
+                        <!-- <h3>Where's the Pyramids?</h3>
+                        <p>Oh no, not the pyramids! What do pyramids have to do with grids? Nothing really, or everything? Are the Pyramids of Giza for example, perhaps the greatest grids of all time? Millions of blocks placed perfectly in alignment, good luck doing that with float!</p> -->
+
+                        <!-- End of fresh content for Blog Two, below are just drafts/ideas/original text -->
+
+                        <h5>By Nathan Ryan</h5>
+
+                        <h3>References</h3>
+
+                        <p><a href="https://www.linkedin.com/learning/css-advanced-layouts-with-grid" title="https://www.linkedin.com/learning/css-advanced-layouts-with-grid" target="_blank">CSS Advanced Layouts with Grid by Morten Rand-Hendriksen</a></p>
+
+                        <p><a href="https://css-tricks.com/snippets/css/css-triangle/" title="https://css-tricks.com/snippets/css/css-triangle/" target="_blank">CSS Triangle | CSS Tricks</a></p>
+
+                        <p><a href="https://css-tricks.com/" title="https://css-tricks.com/" target="_blank">CSS Tricks</a></p>
+
+                        <p><a href="https://github.com/" title="https://github.com/" target="_blank">GitHub</a></p>
+
+                        <p><a href="https://www.youtube.com/channel/UCqC_GY2ZiENFz2pwL0cSfAw" title="https://www.youtube.com/channel/UCqC_GY2ZiENFz2pwL0cSfAw" target="_blank">Green Day</a></p>
+
+                        <p><a href="https://www.oreilly.com/library/view/grid-layout-in/9781491930205/" title="https://www.oreilly.com/library/view/grid-layout-in/9781491930205/" target="_blank">Grid Layout in CSS by Eric A. Meyer</a></p>
+
+                        <p><a href="https://developer.mozilla.org/en-US/" title="https://developer.mozilla.org/en-US/" target="_blank">Mozilla MDN Web Docs</a></p>
+
+                        <p><a href="https://code.visualstudio.com/" title="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></p>
+
+                        <p><a href="https://www.w3schools.com/css/css_grid.asp" title="https://www.w3schools.com/css/css_grid.asp" target="_blank">w3schools | CSS Grid Layout</a></p>
+
+                        <p><a href="https://en.wikipedia.org/wiki/Main_Page" title="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a></p>
+
+                </div> 
+                <!-- End of Blog Div! -->
+            </div>
+            <div class="right-sidebar"><!-- Empty Right Sidebar. --></div>
+
+        </div>
+
+        <footer>
+            <h3>&clubs; Nathan Ryan</h3>
+            <!-- &copy; Nathan Ryan -->
+            <!-- Let's Go Oilers! -->
+        </footer>
+
+    </div>
+    <!-- <script src="./assets/scripts/jeopardy.js"></script> -->
+</body>
+</html>
