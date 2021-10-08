@@ -177,6 +177,10 @@ section figure {
     border-bottom-left-radius: 3em;
 }
 
+.projects a:visited {
+    color: orange;
+}
+
 .rocket-ship {
     background-color: var(--header-bg-color-faded-grey);
     border-top-left-radius: 3em;
