@@ -1,0 +1,494 @@
+ /* html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* .site-container {
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+header {
+    margin: 0;
+    padding: 0px;
+    background-color: lightcyan;
+    display: grid;
+    padding: 10px;
+    /* width: inherit; */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    /* padding: 10px; */
+    margin: 0;
+    border-bottom: 1px lightslategray dashed;
+    padding: 0px;
+    width: 100%;
+}
+
+header h1 .mobile-header {
+    visibility: hidden;
+}
+
+header h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+header h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* header p {
+    font-family: 'Oxanium', cursive;
+    font-size: medium;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+} */
+
+h2:first-of-type {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Oxanium', cursive;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px dashed #000000;
+    /* border-bottom: 1px dashed #000000; */
+    /* background-color: rgba(19, 20, 20, 0.623); */
+}
+
+/* h3:first-of-type {
+    margin-top: 10px;
+} */
+
+h3 {
+    text-align: left;
+    font-family: 'Oxanium', cursive;
+    padding: 5px 5px 0 5px;
+    margin: 10px 0 0 0;
+    border-bottom: 1px lightslategray dashed;
+}
+
+h3:last-of-type {
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Oxanium', cursive;
+}
+
+#random-tangent {
+    color: rgba(255, 0, 0, 0.856);
+}
+
+.grid-logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* width: 9%; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.graph-paper {
+    display: grid;
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
+    border: none;
+    justify-content: center;
+    padding: 20px;
+    /* transform: rotateZ(-45deg); */
+    /* margin: 20px;
+    z-index: 1; */
+    /* width: 700px; */
+    /* padding: 20px; */
+    /* transform: rotate(45deg); */
+    /* overflow: hidden; */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: skewX(45deg);  */
+    /* transform: skewY(45deg); */
+}
+
+.graph-paper div {
+    border: thin ridge #32a1ce;
+    /* padding: 100px; */
+    /* border: 1rem solid;  */
+}
+
+.graph-paper-light-bulb {
+    display: grid;
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
+    border: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+.graph-paper-light-bulb div {
+    border: thin ridge #32a1ce;
+    /* padding: 100px; */
+    /* border: 1rem solid;  */
+}
+
+.graph-paper-question-mark {
+    display: grid;
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
+    border: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+.graph-paper-question-mark div {
+    border: thin ridge #32a1ce;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 5px;
+}
+
+/* .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+} */
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.jeopardy {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    row-gap: 1em;
+}
+
+/* .jeopardy div {
+    place-items: center;
+} */
+
+.category-title {
+    /* text-align: center; */
+    color: white;
+    padding: 2em;
+    background-color: blue;
+    width: 5em;
+    height: 5em;
+    font-family: inherit;
+}
+
+.question-value {
+    color: yellow;
+    background-color: blue;
+    font-family: inherit;
+    width: 5em;
+    height: 5em;
+    padding: 2em;
+}
+
+.question {
+    padding: 2em;
+    color: yellow;
+    background-color: blue;
+    width: 5em;
+    height: 5em;
+    font-family: inherit;
+}
+
+iframe {
+    margin: 10px 0;
+    width: 100%;
+}
+
+figure img {
+    width: 100%;
+    /* border-color: #000000; */
+    border-style: ridge;
+    /* border-width: thin;  */
+}
+
+figure figcaption {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: square;
+    margin: 10px;
+    /* list-style-type: lower-alpha; */
+}
+
+video {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* p:first-of-type::first-letter {
+    font-size: x-large;
+    color: #32a1ce;
+    margin-top: 10px;
+} */
+
+p {
+    /* font-size: 16px;  px may limit accessibility, change to em/rem? */
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+    padding: 5px; 
+    margin: 0;
+    /* font-family: 'Newsreader', serif; */
+}
+
+.header-demo {
+    background-color: lightsteelblue;
+}
+
+.mini-grid-main {
+    background-color: lightgreen;
+}
+
+.mini-grid-sidebar {
+    background-color: rgba(139, 170, 139, 0.801);
+}
+
+.light-bulb-glow {
+    background-color: yellow;
+}
+
+.light-bulb-screw {
+    background-color: rgb(163, 163, 163);
+}
+
+.circle {
+    clip-path: ellipse();
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}
+
+.square {
+    border-radius: 0;
+    background-color: silver;
+    width: 25px;
+    height: 25px;
+}
+
+/* .intro-paragraph {
+    font-size: large;
+    color: #32a1ce;
+    display: inline;
+} */
+
+.question-mark-top {
+    background-color: rgba(139, 170, 139, 0.801);
+}
+
+.question-mark-bottom {
+    background-color: rgba(139, 170, 139, 0.801);
+}
+
+.code-snippet {
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+    background-color: lightcyan;
+    padding: 10px;
+    margin: 10px;
+}
+
+.snippet-class-name {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: yellowgreen;
+}
+
+.snippet-css-rule {
+    display: block;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.snippet-css-rule-indent {
+    display: block;
+    margin-left: 12em;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-caption {
+    font-style: italic;
+    display: block;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+/* Pyramids */
+
+.pyramid-cheops {
+    justify-self: center;
+    display: inline;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;    
+    border-bottom: 100px solid lightgreen;
+    margin: 10px;
+}
+
+/* Graph Paper Grid Image Ideas */
+
+.graph-paper-grid-rows {
+    display: grid;
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
+    border: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+.graph-paper-grid-rows div {
+    border: thin ridge #32a1ce;
+}
+
+.graph-grid-row-header {
+    background-color: lightsteelblue;
+}
+
+.graph-grid-row-main {
+    background-color: lightgreen;
+}
+
+.graph-grid-row-secondary {
+    background-color: rgba(139, 170, 139, 0.801);
+}
+
+.graph-grid-row-green {
+    background-color: lightgreen;
+}
+
+.graph-grid-row-white {
+    background-color: white;
+}
+
+.graph-grid-row-orange {
+    background-color: orange;
+}
+
+.graph-paper-pyramid {
+    display: grid;
+    grid-template-columns: repeat(10, 12.5px);
+    grid-template-rows: repeat(10, 12.5px);
+    border: none;
+    justify-content: center;
+    padding: 20px;    
+}
+
+.graph-paper-pyramid div {
+    border: thin ridge #32a1ce;
+}
+
+.graph-paper-pyramid-color {
+    background-color: lightgreen;
+}
+
+footer {
+    margin: 0;
+    padding: 0px;
+    background-color: lightcyan;
+    display: grid;
+    padding: 10px;
+    /* justify-content: center; */
+}
+
+footer h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 3D Cube Base Attempt */
+
+/* #c {
+    width: 70px;
+    height: 70px;
+    background: #1A4341;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 80;
+    left: 201;
+    transform: rotate(45deg);
+    transform: skewY(45deg);
+  }
+
+  #l {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100px;
+    height: 100px;
+    background: lightsteelblue;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: 135px;
+ }
+
+#r {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+	position: absolute;
+    top: 79.5;
+    left: 129;
+    width: 71px;
+    height: 70px;
+    background: #998235;
+    margin: 0 auto;
+    transform: skewY(135deg);
+    overflow: hidden;
+ } */
+/* End of 3D Cube Attempt */
+
+/* @media (min-width: 660px) {
+    
+    header h1 .mobile-header {
+        visibility: visible;
+    }
+
+    header h1 .desktop-header {
+        visibility: hidden;
+    }
+} */

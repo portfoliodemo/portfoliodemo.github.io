@@ -1,0 +1,349 @@
+
+/* Add Border Box to all elements? */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Visualize every element with a white box - debugging */
+/* * {
+    outline: 1px solid whitesmoke !important;
+  } */
+
+:root {
+    --header-bg-color-black: rgb(46, 49, 54);
+    --header-bg-color-faded-grey: #3f3f3fd3; 
+    --font-family-bubblegum: 'Bubblegum Sans', cursive;
+    --font-family-corben: 'Corben', cursive;
+    --font-family-limelight: 'Limelight', cursive;
+    --font-family-raleway: 'Raleway', sans-serif; 
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-inconsolata: 'Inconsolata', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0em;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+
+header {
+    margin: 0;
+    padding: 1em;
+    background-color: #3f3f3fd3;
+    /* background-image: url("../images/endless-constellation.svg"); */
+    /* background-image: url("../images/subtle-prism.svg"); */
+}
+
+header h1 {
+    font-family: var(--font-family-limelight);
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
+header nav ul li {
+    width: 100%;
+    text-align: center;
+    border-radius: 1em;
+    padding: 0.75em 0.75em;
+    /* background-color: #e6e6e6; */
+}
+
+header nav ul #btn-contact {
+    /* background-color: #263740; */
+    background-color: orange;
+    /* background-color: #243443; */
+    /* background-color: green; */
+    border-radius: 1em;
+    padding: 0.75em 0.75em;
+    margin: 0 1em;
+}
+
+#btn-contact a {
+    color: whitesmoke;
+}
+
+#btn-contact a:hover {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: var(--font-family-raleway);
+    font-size: 1.5em;
+}
+
+header nav ul li a:hover {
+    color: orange;
+    /* background-color: #e6e6e6; */
+    border-radius: 1em;
+    /* padding: 0.75em 0.75em; */
+}
+
+.mini-socials {
+    text-align: center;
+    font-family: var(--font-family-raleway);
+}
+
+.mini-socials a {
+    color: whitesmoke;
+}
+
+.mini-socials a:hover {
+    color: yellow;
+}
+
+/* main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
+
+section {
+    padding: 1em;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+section figure {
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    justify-items: center;
+}
+
+/* .hero-splash {
+    background-image: url("../images/endless-constellation.svg");
+    min-height: 35vw;
+} */
+
+.about h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-family: var(--font-family-raleway);
+}
+
+/* .socials {
+    background-image: url("../images/endless-constellation.svg");
+} */
+
+.projects, .experience {
+    background-color: var(--header-bg-color-faded-grey);
+    border-top-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+}
+
+.rocket-ship {
+    background-color: var(--header-bg-color-faded-grey);
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+}
+
+/* .education {
+    background-image: url("../images/liquid-cheese.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.interests {
+    background-image: url("../images/liquid-cheese.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.interests h2 {
+    color: black;
+}
+
+.interests p {
+    color: black;
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure img {
+    margin: 0 0 0 0;
+    width: 20em;
+    padding: 1em;
+}
+
+#home-logo-header {
+    width: 2.5em;
+}
+
+#nav-menu-icon {
+    width: 2.5em;
+}
+
+#mountain-logo-header {
+    width: 2.5em;
+}
+
+main h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: var(--font-family-raleway);
+    margin: 0.5em 0;
+}
+
+/* main section {
+    padding: 2em;
+} */
+
+main p {
+    padding: 2em;
+    color: whitesmoke;
+    margin: 0 12em;
+    font-family: var(--font-family-raleway);
+}
+
+/* .social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+/* .social-network-icons {
+    width: 10em;
+} */
+
+.contact p {
+    text-align: center;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+footer {
+    font-family: var(--font-family-raleway);
+    /* background-color: var(--header-bg-color-faded-grey); */
+    margin: 0;
+    padding: 1em;
+}
+
+footer h2 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+/* Media Queries */
+
+
+/* @media (min-width: 600px) {
+
+    main section p {
+        margin: 0 2em;
+    }
+
+    #nav-menu-icon {
+        display: none;
+    }
+
+    nav ul li:first-child {
+        display: block;
+    }
+
+} */
+
+@media (max-width: 700px) {
+
+    nav {
+        grid-area: nav;
+    }
+
+    main p {
+        padding: 2em;
+        color: whitesmoke;
+        margin: 0 6em;
+        font-family: var(--font-family-raleway);
+    }
+
+    header nav ul {
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 1em;
+        border-bottom: 0.125em groove whitesmoke;
+        font-size: 1.25em;
+    }
+
+    header nav ul li {
+        border-radius: 0;
+    }
+
+    header nav ul #btn-contact {
+        background-color: inherit;
+        border-radius: 0;
+        padding: 1em;
+        margin: 0;
+    }
+
+    #btn-contact a:hover {
+        color: orange;
+    }
+
+    figure img {
+        margin: 0 0 0 0;
+        width: 10em;
+        padding: 1em;
+    }
+    
+    /* nav ul li:first-child, li:last-child {
+        display: block;
+    } */
+
+}
