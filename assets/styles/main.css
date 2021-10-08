@@ -88,6 +88,10 @@ header nav ul #btn-contact {
     margin: 0 1em;
 }
 
+a:visited {
+    color: whitesmoke;
+}
+
 #btn-contact a {
     color: whitesmoke;
 }
@@ -99,10 +103,6 @@ header nav ul #btn-contact {
 a {
     text-decoration: none;
     color: yellow;
-}
-
-a:visited {
-    color: whitesmoke;
 }
 
 header nav ul li a {
