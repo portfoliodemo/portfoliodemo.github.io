@@ -124,6 +124,10 @@ header nav ul li a:hover {
     font-family: var(--font-family-raleway);
 }
 
+.mini-socials p {
+    color: white;
+}
+
 .mini-socials a {
     color: whitesmoke;
 }
