@@ -257,6 +257,11 @@ main p {
     font-family: var(--font-family-raleway);
 }
 
+.social-networks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 /* .social-networks {
     display: flex;
     justify-content: space-evenly;
