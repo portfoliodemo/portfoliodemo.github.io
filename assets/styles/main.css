@@ -115,7 +115,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color: yellow;
     /* background-color: #e6e6e6; */
-    border-radius: 1em;
+    /* border-radius: 1em; */
     border-bottom: thick double orange;
     /* padding: 0.75em 0.75em; */
 }
