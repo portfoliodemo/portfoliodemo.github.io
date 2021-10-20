@@ -359,3 +359,10 @@ footer h2 {
     } */
 
 }
+
+@media (max-width: 450px) {
+
+    .social-networks {
+        grid-template-columns: 1fr;
+    }
+}
