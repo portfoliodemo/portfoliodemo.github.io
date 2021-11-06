@@ -227,6 +227,10 @@ figure img {
     padding: 1em;
 }
 
+.library {
+    width: 100%;
+}
+
 #home-logo-header {
     width: 2.5em;
 }
