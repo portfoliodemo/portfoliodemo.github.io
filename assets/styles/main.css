@@ -223,12 +223,8 @@ section figure {
 
 figure img {
     margin: 0 0 0 0;
-    width: 20em;
+    width: 15em;
     padding: 1em;
-}
-
-.library {
-    width: 100%;
 }
 
 #home-logo-header {
@@ -281,6 +277,29 @@ main p {
     font-size: 2em;
     color: whitesmoke;
 }
+
+form {
+    display: grid;
+    color: white;
+    font-family: var(--font-family-raleway);
+    justify-items: center;
+}
+
+label {
+    display: flex;
+}
+
+button {
+    padding: 1em;
+}
+
+textarea {
+    width: inherit;
+}
+
+/* label textarea {
+    width: auto;
+} */
 
 footer {
     font-family: var(--font-family-raleway);
