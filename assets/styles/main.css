@@ -178,10 +178,16 @@ section figure {
     background-image: url("../images/endless-constellation.svg");
 } */
 
-.projects, .experience {
+.projects {
     background-color: var(--header-bg-color-faded-grey);
     border-top-right-radius: 3em;
     border-bottom-left-radius: 3em;
+}
+
+.experience {
+    background-color: var(--header-bg-color-faded-grey);
+    border-top-right-radius: 3em;
+    /* border-bottom-left-radius: 3em; */
 }
 
 .projects a:visited {
