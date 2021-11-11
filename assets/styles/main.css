@@ -255,7 +255,7 @@ main h2 {
 } */
 
 main p {
-    padding: 1em;
+    padding: 1em 2em;
     color: whitesmoke;
     margin: 0 12em;
     font-family: var(--font-family-raleway);
@@ -292,7 +292,8 @@ form {
     justify-items: center;
     /* Form outline */
     padding: 1em;
-    margin: 0 3em;
+    margin: 0;
+    /* margin: 0 3em; */
     /* border: 1px solid #CCC; */
     border-radius: 1em;
     color: white;
@@ -443,7 +444,7 @@ footer h2 {
 @media (max-width: 700px) {
 
     main p {
-        padding: 1em;
+        padding: 1em 2em;
         color: whitesmoke;
         margin: 0 2em;
         font-family: var(--font-family-raleway);
@@ -484,7 +485,7 @@ footer h2 {
 
     form {
         border: 1px solid #CCC;
-        margin: 0 1em;
+        /* margin: 0 1em; */
     }
     
     /* nav ul li:first-child, li:last-child {
