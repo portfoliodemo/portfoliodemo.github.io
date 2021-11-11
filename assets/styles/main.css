@@ -246,12 +246,16 @@ main h2 {
     margin: 0.5em 0;
 }
 
+.interests a {
+    color: royalblue;
+}
+
 /* main section {
     padding: 2em;
 } */
 
 main p {
-    padding: 2em;
+    padding: 1em;
     color: whitesmoke;
     margin: 0 12em;
     font-family: var(--font-family-raleway);
@@ -288,7 +292,7 @@ form {
     justify-items: center;
     /* Form outline */
     padding: 1em;
-    margin: 0 6em;
+    margin: 0 3em;
     /* border: 1px solid #CCC; */
     border-radius: 1em;
     color: white;
@@ -318,7 +322,8 @@ input, textarea {
     font: 1em sans-serif;
   
     /* Uniform text field size */
-    width: 100%;
+    /* width: 100%; */
+    width: 20em;
     box-sizing: border-box;
   
     /* Match form field borders */
@@ -341,13 +346,15 @@ textarea {
 .button {
     /* Align buttons with the text fields */
     /* same size as the label elements */
-    padding-left: 90px;
+    padding-left: 101px;
 }
   
 button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
+    padding: .5em;
+    font-size: x-large;
 }
 
 /* form {
@@ -433,7 +440,7 @@ footer h2 {
 @media (max-width: 700px) {
 
     main p {
-        padding: 2em;
+        padding: 1em;
         color: whitesmoke;
         margin: 0 2em;
         font-family: var(--font-family-raleway);
@@ -470,6 +477,10 @@ footer h2 {
         margin: 0 0 0 0;
         width: 10em;
         padding: 1em;
+    }
+
+    form {
+        border: 1px solid #CCC;
     }
     
     /* nav ul li:first-child, li:last-child {
