@@ -278,28 +278,123 @@ main p {
     color: whitesmoke;
 }
 
+/* Following Form Based Off of MDN Tutorial */
+/* https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms */
+
 form {
+    /* Center the form on the page */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* Form outline */
+    padding: 1em;
+    margin: 0 6em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    color: white;
+    font-family: var(--font-family-raleway);
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    /* Uniform size & alignment */
+    display: flex;
+    width: 9em;
+    text-align: right;
+}
+  
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+  
+input:focus, textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+  
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+  
+.button {
+    /* Align buttons with the text fields */
+    /* same size as the label elements */
+    padding-left: 90px;
+}
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}
+
+/* form {
     display: grid;
     color: white;
     font-family: var(--font-family-raleway);
     justify-items: center;
-}
+} */
 
-label {
+/* label {
     display: flex;
-}
+} */
 
-button {
+/* Scroll To Top Button */
+/* button {
     padding: 1em;
-}
-
-textarea {
-    width: inherit;
-}
+} */
 
 /* label textarea {
     width: auto;
 } */
+
+#scrollToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 97; /* Make sure it does not overlap */
+    background-color: #555; /* Add a dark-grey background on hover */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#scrollToTopBtn:hover {
+    background-color: rgba(255, 166, 0, 0.801); /* Set a background color */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    cursor: pointer;
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}  
 
 footer {
     font-family: var(--font-family-raleway);
