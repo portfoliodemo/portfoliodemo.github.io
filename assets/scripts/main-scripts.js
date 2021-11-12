@@ -1,5 +1,4 @@
 
-
 // Get the button:
 let mybutton = document.getElementById("scrollToTopBtn");
 
