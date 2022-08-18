@@ -78,31 +78,37 @@ header nav ul li {
     /* background-color: #e6e6e6; */
 }
 
-header nav ul #btn-contact {
-    /* background-color: #263740; */
-    background-color: orange;
-    /* background-color: #243443; */
-    /* background-color: green; */
-    border-radius: 1em;
-    padding: 0.75em 0.75em;
-    margin: 0 1em;
+a {
+    text-decoration: none;
+    color: yellow;
 }
 
 a:visited {
     color: whitesmoke;
 }
 
+/* Link Visited Hover Focus Active */
+
+header nav ul #btn-contact {
+    /* background-color: #263740; */
+    /* background-color: blue; */
+    /* background-color: #243443; */
+    /* background-color: green; */
+    background-color: #263740;
+    color: whitesmoke;
+    /* background-color: #263740; */
+    border-radius: 1em;
+    padding: 0.25em 1.75em;
+    margin: 0 1em;
+}
+
+header nav ul #btn-contact:hover {
+    background-color: orange;
+    color: #263740;
+}
+
 #btn-contact a {
     color: whitesmoke;
-}
-
-#btn-contact a:hover {
-    color: blue;
-}
-
-a {
-    text-decoration: none;
-    color: yellow;
 }
 
 header nav ul li a {
@@ -112,13 +118,17 @@ header nav ul li a {
     font-size: 1.5em;
 }
 
-header nav ul li a:hover {
+header nav ul li:not(:last-child) a:hover {
     color: yellow;
     /* background-color: #e6e6e6; */
     /* border-radius: 1em; */
     border-bottom: thick double orange;
     /* padding: 0.75em 0.75em; */
 }
+
+/* header nav ul li:last-child {
+    background-color: paleturquoise;
+} */
 
 .mini-socials {
     text-align: center;
@@ -265,6 +275,7 @@ main p {
     color: whitesmoke;
     margin: 0 12em;
     font-family: var(--font-family-raleway);
+    /* max-width: 80ch; */
 }
 
 .social-networks {
@@ -406,7 +417,7 @@ button {
     background-color: rgba(255, 166, 0, 0.801); /* Set a background color */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    color: white; /* Text color */
+    color: #263740; /* Text color */
     cursor: pointer;
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -447,7 +458,7 @@ footer h2 {
 
 } */
 
-@media (max-width: 700px) {
+@media (max-width: 815px) {
 
     main p {
         padding: 1em 2em;
@@ -473,14 +484,23 @@ footer h2 {
     }
 
     header nav ul #btn-contact {
-        background-color: inherit;
+        /* background-color: inherit; */
         border-radius: 0;
-        padding: 1em;
+        padding: 0;
         margin: 0;
+        background-color: inherit;
+        color: whitesmoke;
     }
 
-    #btn-contact a:hover {
+    header nav ul #btn-contact:hover {
+        /* background-color: inherit; */
+        border-radius: 0;
+        /* padding: 1em; */
+        margin: 0;
+        background-color: inherit;
         color: yellow;
+        border-bottom: thick double orange;
+        /* color: #263740; */
     }
 
     figure img {
