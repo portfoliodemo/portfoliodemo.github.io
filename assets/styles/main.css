@@ -194,14 +194,31 @@ section figure {
     border-bottom-left-radius: 3em;
 }
 
+.projects a:visited {
+    color: yellow;
+}
+
+.projects a:hover {
+    color: orange;
+}
+
+
 .experience {
     background-color: var(--header-bg-color-faded-grey);
     border-top-right-radius: 3em;
     /* border-bottom-left-radius: 3em; */
 }
 
-.projects a:visited {
+.experience p a {
     color: yellow;
+}
+
+.experience p a:visited {
+    color: yellowgreen;
+}
+
+.experience p a:hover {
+    color: orange;
 }
 
 .rocket-ship {
