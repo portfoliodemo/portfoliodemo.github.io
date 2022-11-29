@@ -202,6 +202,37 @@ section figure {
     color: orange;
 }
 
+.dall-e-wrapper {
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(auto-fit, 1fr); */
+    /* background: url(../images/coder-tree-city-at-night-digital-art.png) center; */
+    /* padding: 4rem 2rem; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url(../images/coder-tree-city-at-night-digital-art.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* justify-content: center; */
+}
+
+.dall-e img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* border-radius: 73%; */
+}
+
+/* 
+.dall-e figure {
+    display: grid;
+    justify-items: center;
+} */
+
+/* .dall-e figure img {
+    border-radius: 73%;
+} */
 
 .experience {
     background-color: var(--header-bg-color-faded-grey);
