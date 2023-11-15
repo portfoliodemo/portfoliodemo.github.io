@@ -202,6 +202,10 @@ section figure {
     color: orange;
 }
 
+.projects p {
+    max-width: 50rem;
+}
+
 .dall-e-wrapper {
     /* Grid styles */
     display: grid;
@@ -240,6 +244,10 @@ section figure {
     /* border-bottom-left-radius: 3em; */
 }
 
+.experience p {
+    max-width: 50rem;
+}
+
 .experience p a {
     color: yellow;
 }
@@ -264,6 +272,10 @@ section figure {
     background-size: cover;
 } */
 
+.education p {
+    max-width: 50rem;
+}
+
 .interests {
     background-image: url("../images/liquid-cheese.svg");
     background-repeat: no-repeat;
@@ -277,6 +289,7 @@ section figure {
 
 .interests p {
     color: black;
+    max-width: 50rem;
 }
 
 .technologies {
@@ -345,6 +358,10 @@ main p {
     text-align: center;
     font-size: 2em;
     color: whitesmoke;
+}
+
+.opening-paragraph {
+    max-width: 50rem;
 }
 
 /* Following Form Based Off of MDN Tutorial */
