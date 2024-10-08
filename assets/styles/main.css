@@ -130,6 +130,11 @@ header nav ul li:not(:last-child) a:hover {
     background-color: paleturquoise;
 } */
 
+main {
+    display: grid;
+    justify-items: center;
+}
+
 .mini-socials {
     text-align: center;
     font-family: var(--font-family-raleway);
