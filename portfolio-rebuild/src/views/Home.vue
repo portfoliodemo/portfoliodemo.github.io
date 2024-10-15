@@ -4,20 +4,24 @@
 
 <template>
   <section class="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is the home of my web development projects, skills, and resources.</p>
+    <figure class="hero-image">
+      <img src="../assets/images/shooting-star.jpg" alt="">
+      <!-- <img src="../assets/images/space-burst.jpg" alt=""> -->
+      <!-- <img src="../assets/images/oak-tree-city-coding.png" alt="AI Image of someone using a laptop leaning up against an oak tree, overlooking a city with a bright sun in the background, digital art"> -->
+    </figure>
   </section>
 </template>
 
 <style scoped>
 .home {
-  display: grid;
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   /* height: 100vh; */
   background-color: #f5f5f5;
   text-align: center;
+  /* padding: 1rem; */
 }
 
 .home h1 {
@@ -27,6 +31,14 @@
 
 .home p {
   font-size: 1.2rem;
-  color: blue;
+  color: black;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image img{
+  max-width: 100%;
 }
 </style>

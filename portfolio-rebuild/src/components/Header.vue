@@ -20,7 +20,7 @@ const closeMenu = () => {
   <header>
     <div class="header-content">
       <div class="logo">
-        <img src="../assets/images/mountain-city-solid.svg" alt="Mountain and City Icon">
+        <!-- <img src="../assets/images/mountain-city-solid.svg" alt="Mountain and City Icon"> -->
         <router-link to="/">Nathan Ryan</router-link>
       </div>
       
@@ -61,8 +61,19 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo img {
+  width: 20%;
 }
 
 .logo a {
@@ -94,6 +105,7 @@ header {
 .mobile-nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
   background-color: #333;
   padding: 1rem;
@@ -136,6 +148,10 @@ header {
   /* Show the hamburger menu icon */
   .mobile-menu-icon {
     display: block;
+  }
+
+  .header-content {
+    justify-content: space-evenly;
   }
 }
 </style>
