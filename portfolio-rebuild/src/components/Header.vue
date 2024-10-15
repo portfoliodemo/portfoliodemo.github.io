@@ -36,7 +36,11 @@ const closeMenu = () => {
 
       <!-- Hamburger Menu Icon for Mobile -->
       <div class="mobile-menu-icon" @click="toggleMenu">
-        &#9776; <!-- Unicode for Hamburger Icon -->
+        <!-- <div></div>
+        <div></div>
+        <div></div> -->
+        &#9776; 
+        <!-- Unicode for Hamburger Icon -->
       </div>
     </div>
 
