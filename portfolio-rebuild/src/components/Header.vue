@@ -58,7 +58,8 @@ const closeMenu = () => {
 
 <style scoped>
 header {
-  background-color: #333;
+  /* background-color: #333; */
+  background-color: black;
   padding: 1rem;
   color: white;
 }
@@ -67,6 +68,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -88,7 +90,7 @@ header {
 
 .desktop-nav {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .desktop-nav a {
@@ -113,6 +115,7 @@ header {
   gap: 1rem;
   background-color: #333;
   padding: 1rem;
+  font-size: 1.5rem;
 }
 
 .mobile-nav a {
