@@ -4,16 +4,34 @@
 
 <template>
   <section class="home">
+
+    <div class="hero-container">
+      <video src="../assets/videos/spiral-galaxy.mp4" autoplay loop muted width="60%">Your browser does not support the video tag.</video>
+    </div>
     
-    <figure class="hero-image">
-      <!-- <img src="../assets/images/oak-tree-city-coding.png" alt="AI Image of someone using a laptop leaning up against an oak tree, overlooking a city with a bright sun in the background, digital art"> -->
+    <!-- <figure class="hero-image">
       <img src="../assets/images/shooting-star.jpg" alt="">
-    </figure>
+    </figure> -->
+      <!-- <img src="../assets/images/oak-tree-city-coding.png" alt="AI Image of someone using a laptop leaning up against an oak tree, overlooking a city with a bright sun in the background, digital art"> -->
+
       <!-- <img src="../assets/images/space-burst.jpg" alt=""> -->
 
-    <h1>Hello World!</h1>
-    <p>My name is Nathan Ryan and I love programming!</p>
+    <div class="developer-introduction">
+      <h1>Driven to Build, Learn, and Grow</h1>
+      <p>Hello world! My name is Nathan Ryan and I am passionate about crafting efficient and creative web solutions. Skilled in front-end technologies with a focus on responsive design, accessibility, and user experience.</p>
+      <p>Constantly learning and expanding my skills, I'm working hard towards becoming a versatile full-stack developer ready to tackle complex challenges and make positive imapact through code!</p>
+    </div>
 
+    <div class="avatar-section-break">
+      <figure class="ai-avatar">
+        <img src="../assets/images/oak-tree-city-coding.png" alt="AI Generated illustration of someone coding against an oak tree while overlooking a city with a unique sun blazing down upon it all.">
+      </figure>
+    </div>
+
+    <section class="projects-section">
+      <h2>Portfolio Highlights</h2>
+      <p>Here are a few projects that showcase my journey as a developer so far. Each project reflects my passion for clean design, responsive development, and a dedication to learning new technologies.</p>
+    </section>
     <!-- Terminal -->
               <!-- Terminal Header -->
                <!-- Close, Minimize, Maximize Buttons -->
@@ -74,6 +92,66 @@
 .home p {
   font-size: 1.2rem;
   color: black;
+}
+
+.hero-container {
+  width: 100%;
+  background-color: black;
+  /* padding: 0 2rem; */
+  /* overflow: hidden; */
+  /* background-color: #101010; */
+}
+
+.developer-introduction {
+  padding: 2rem;
+  background-color: #101010;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.developer-introduction h1 {
+  color: whitesmoke;
+}
+
+.developer-introduction p {
+  color: whitesmoke;
+  max-width: 60ch;
+}
+
+.avatar-section-break {
+  width: 100%;
+  background-color: #101010;
+  display: grid;
+  justify-items: center;
+  padding: 2rem 0;
+}
+
+.ai-avatar {
+  width: 20%;
+}
+
+.ai-avatar img {
+  border-radius: 1rem;
+}
+
+.projects-section {
+  padding: 2rem;
+  background-color: #101010;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.projects-section h2 {
+  color: whitesmoke;
+}
+
+.projects-section p {
+  color: whitesmoke;
+  max-width: 60ch;
 }
 
 .hero-image {

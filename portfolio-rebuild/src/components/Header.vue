@@ -26,7 +26,7 @@ const closeMenu = () => {
       
       <!-- Regular Navigation -->
       <nav class="desktop-nav">
-        <router-link to="/">Home</router-link>
+        <!-- <router-link to="/">Home</router-link> -->
         <router-link to="/projects">Projects</router-link>
         <router-link to="/about">About</router-link>
         <router-link to="/skills">Skills</router-link>
@@ -59,9 +59,9 @@ const closeMenu = () => {
 <style scoped>
 header {
   /* background-color: #333; */
-  background-color: black;
+  background-color: #101010;
   padding: 1rem;
-  color: white;
+  color: whitesmoke;
 }
 
 .header-content {
@@ -113,7 +113,8 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  background-color: #333;
+  background-color: black;
+  /* background-color: #333; */
   padding: 1rem;
   font-size: 1.5rem;
 }
