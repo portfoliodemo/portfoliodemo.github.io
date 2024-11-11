@@ -11,6 +11,12 @@
     box-sizing: border-box;
 }
 
+/* Visualize every element with a white box - debugging */
+/* * {
+    outline: 10px solid mediumblue !important;
+} */
+
+
 /* Reset Margins */
 body,
 h1,

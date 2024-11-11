@@ -59,7 +59,8 @@ const closeMenu = () => {
 <style scoped>
 header {
   /* background-color: #333; */
-  background-color: #101010;
+  /* background-color: #101010; */
+  background-color: black;
   padding: 1rem;
   color: whitesmoke;
 }
@@ -113,6 +114,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  /* background-color: #101010; */
   background-color: black;
   /* background-color: #333; */
   padding: 1rem;
